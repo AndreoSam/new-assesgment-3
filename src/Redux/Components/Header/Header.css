@@ -1,0 +1,20 @@
+.header_css {
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+.header_left_list {
+  text-decoration: none;
+  color: black;
+}
+
+.header_left_list:hover {
+  color: blue;
+  width: 100%;
+  font-weight: 600;
+}

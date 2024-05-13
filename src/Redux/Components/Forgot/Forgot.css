@@ -1,0 +1,53 @@
+.forgot_main_css {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://plus.unsplash.com/premium_photo-1700830452546-96547de21071?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+
+.forgot_main_css_header {
+  background-color: black;
+  width: 100%;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 50px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.forgot_css_1 {
+  max-width: 400px;
+  /* height: 200px; */
+  /* border: 2px solid black; */
+  margin: 30px;
+}
+
+.forgot_css_1_typography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.forgot_textfield .forgot_textfield_inputfield {
+  /* border: 2px solid black; */
+  margin-bottom: 10px;
+  width: 100%;
+  /* background-color: whitesmoke; */
+}
+
+.Continue_btn {
+  width: 100%;
+  background-color: green;
+  color: white;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+}

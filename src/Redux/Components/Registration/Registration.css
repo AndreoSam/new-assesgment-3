@@ -1,0 +1,85 @@
+.reg_css_1 {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+
+.reg_css_left {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.reg_css_right_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.form_css {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 10px black;
+  border-radius: 15px;
+  padding: 20px;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  background-color: white;
+}
+
+.input_data_css{
+    width: 100%;
+}
+
+.reg_css_right_main .register_heading_css{
+    color:white;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.error-message {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-size: 15px;
+    text-align: justify;
+    width: 100%;
+}
+
+.link_css{
+    text-decoration: none;
+    color: blue;
+}
+
+.forgot_css{
+  color: green;
+  text-decoration: none;
+}
+.forgot_css:hover{
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.form_css .registration_icon{
+    background-color: green;
+    color: white;
+}
+
+.form_css .registration_icon:hover {
+  background-color: grey;
+}
